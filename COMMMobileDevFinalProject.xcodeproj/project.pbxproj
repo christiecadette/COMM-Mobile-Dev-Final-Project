@@ -44,7 +44,7 @@
 		A871290D26A7BD860063FE25 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		A871290F26A7BDBF0063FE25 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
 		A871291126A7CD040063FE25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
-		A8C24EA426A61244005D64C9 /* COMM Mobile Dev Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMM Mobile Dev Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C24EA426A61244005D64C9 /* COMMMobileDevFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMMMobileDevFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C24EA726A61244005D64C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8C24EA926A61244005D64C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8C24EAB26A61244005D64C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 		A8C24EB326A61245005D64C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C24EB626A61245005D64C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8C24EB826A61245005D64C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8C24EBD26A61245005D64C9 /* COMM Mobile Dev Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMM Mobile Dev Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C24EBD26A61245005D64C9 /* COMMMobileDevFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COMMMobileDevFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C24EC126A61245005D64C9 /* COMM_Mobile_Dev_Final_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMM_Mobile_Dev_Final_ProjectTests.swift; sourceTree = "<group>"; };
 		A8C24EC326A61245005D64C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8C24EC826A61245005D64C9 /* COMM Mobile Dev Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COMM Mobile Dev Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C24EC826A61245005D64C9 /* COMMMobileDevFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COMMMobileDevFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C24ECC26A61245005D64C9 /* COMM_Mobile_Dev_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMM_Mobile_Dev_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		A8C24ECE26A61245005D64C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,9 +100,9 @@
 		A8C24EA526A61244005D64C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8C24EA426A61244005D64C9 /* COMM Mobile Dev Final Project.app */,
-				A8C24EBD26A61245005D64C9 /* COMM Mobile Dev Final ProjectTests.xctest */,
-				A8C24EC826A61245005D64C9 /* COMM Mobile Dev Final ProjectUITests.xctest */,
+				A8C24EA426A61244005D64C9 /* COMMMobileDevFinalProject.app */,
+				A8C24EBD26A61245005D64C9 /* COMMMobileDevFinalProjectTests.xctest */,
+				A8C24EC826A61245005D64C9 /* COMMMobileDevFinalProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8C24EA326A61244005D64C9 /* COMM Mobile Dev Final Project */ = {
+		A8C24EA326A61244005D64C9 /* COMMMobileDevFinalProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8C24ED126A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMM Mobile Dev Final Project" */;
+			buildConfigurationList = A8C24ED126A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMMMobileDevFinalProject" */;
 			buildPhases = (
 				A8C24EA026A61244005D64C9 /* Sources */,
 				A8C24EA126A61244005D64C9 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = "COMM Mobile Dev Final Project";
+			name = COMMMobileDevFinalProject;
 			productName = "COMM Mobile Dev Final Project";
-			productReference = A8C24EA426A61244005D64C9 /* COMM Mobile Dev Final Project.app */;
+			productReference = A8C24EA426A61244005D64C9 /* COMMMobileDevFinalProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8C24EBC26A61245005D64C9 /* COMM Mobile Dev Final ProjectTests */ = {
+		A8C24EBC26A61245005D64C9 /* COMMMobileDevFinalProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8C24ED426A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMM Mobile Dev Final ProjectTests" */;
+			buildConfigurationList = A8C24ED426A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMMMobileDevFinalProjectTests" */;
 			buildPhases = (
 				A8C24EB926A61245005D64C9 /* Sources */,
 				A8C24EBA26A61245005D64C9 /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				A8C24EBF26A61245005D64C9 /* PBXTargetDependency */,
 			);
-			name = "COMM Mobile Dev Final ProjectTests";
+			name = COMMMobileDevFinalProjectTests;
 			productName = "COMM Mobile Dev Final ProjectTests";
-			productReference = A8C24EBD26A61245005D64C9 /* COMM Mobile Dev Final ProjectTests.xctest */;
+			productReference = A8C24EBD26A61245005D64C9 /* COMMMobileDevFinalProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A8C24EC726A61245005D64C9 /* COMM Mobile Dev Final ProjectUITests */ = {
+		A8C24EC726A61245005D64C9 /* COMMMobileDevFinalProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8C24ED726A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMM Mobile Dev Final ProjectUITests" */;
+			buildConfigurationList = A8C24ED726A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMMMobileDevFinalProjectUITests" */;
 			buildPhases = (
 				A8C24EC426A61245005D64C9 /* Sources */,
 				A8C24EC526A61245005D64C9 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				A8C24ECA26A61245005D64C9 /* PBXTargetDependency */,
 			);
-			name = "COMM Mobile Dev Final ProjectUITests";
+			name = COMMMobileDevFinalProjectUITests;
 			productName = "COMM Mobile Dev Final ProjectUITests";
-			productReference = A8C24EC826A61245005D64C9 /* COMM Mobile Dev Final ProjectUITests.xctest */;
+			productReference = A8C24EC826A61245005D64C9 /* COMMMobileDevFinalProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8C24E9F26A61244005D64C9 /* Build configuration list for PBXProject "COMM Mobile Dev Final Project" */;
+			buildConfigurationList = A8C24E9F26A61244005D64C9 /* Build configuration list for PBXProject "COMMMobileDevFinalProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8C24EA326A61244005D64C9 /* COMM Mobile Dev Final Project */,
-				A8C24EBC26A61245005D64C9 /* COMM Mobile Dev Final ProjectTests */,
-				A8C24EC726A61245005D64C9 /* COMM Mobile Dev Final ProjectUITests */,
+				A8C24EA326A61244005D64C9 /* COMMMobileDevFinalProject */,
+				A8C24EBC26A61245005D64C9 /* COMMMobileDevFinalProjectTests */,
+				A8C24EC726A61245005D64C9 /* COMMMobileDevFinalProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		A8C24EBF26A61245005D64C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8C24EA326A61244005D64C9 /* COMM Mobile Dev Final Project */;
+			target = A8C24EA326A61244005D64C9 /* COMMMobileDevFinalProject */;
 			targetProxy = A8C24EBE26A61245005D64C9 /* PBXContainerItemProxy */;
 		};
 		A8C24ECA26A61245005D64C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8C24EA326A61244005D64C9 /* COMM Mobile Dev Final Project */;
+			target = A8C24EA326A61244005D64C9 /* COMMMobileDevFinalProject */;
 			targetProxy = A8C24EC926A61245005D64C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -507,7 +507,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMM Mobile Dev Final Project.app/COMM Mobile Dev Final Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMMMobileDevFinalProject.app/COMMMobileDevFinalProject";
 			};
 			name = Debug;
 		};
@@ -529,7 +529,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMM Mobile Dev Final Project.app/COMM Mobile Dev Final Project";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COMMMobileDevFinalProject.app/COMMMobileDevFinalProject";
 			};
 			name = Release;
 		};
@@ -576,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8C24E9F26A61244005D64C9 /* Build configuration list for PBXProject "COMM Mobile Dev Final Project" */ = {
+		A8C24E9F26A61244005D64C9 /* Build configuration list for PBXProject "COMMMobileDevFinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8C24ECF26A61245005D64C9 /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8C24ED126A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMM Mobile Dev Final Project" */ = {
+		A8C24ED126A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMMMobileDevFinalProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8C24ED226A61245005D64C9 /* Debug */,
@@ -594,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8C24ED426A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMM Mobile Dev Final ProjectTests" */ = {
+		A8C24ED426A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMMMobileDevFinalProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8C24ED526A61245005D64C9 /* Debug */,
@@ -603,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8C24ED726A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMM Mobile Dev Final ProjectUITests" */ = {
+		A8C24ED726A61245005D64C9 /* Build configuration list for PBXNativeTarget "COMMMobileDevFinalProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8C24ED826A61245005D64C9 /* Debug */,
