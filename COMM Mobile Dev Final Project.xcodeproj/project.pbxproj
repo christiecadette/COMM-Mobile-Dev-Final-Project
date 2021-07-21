@@ -10,6 +10,7 @@
 		A871290C26A7BC090063FE25 /* NoScrollExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871290B26A7BC090063FE25 /* NoScrollExploreViewController.swift */; };
 		A871290E26A7BD860063FE25 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871290D26A7BD860063FE25 /* ConnectViewController.swift */; };
 		A871291026A7BDBF0063FE25 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871290F26A7BDBF0063FE25 /* ChatTableViewController.swift */; };
+		A871291226A7CD040063FE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A871291126A7CD040063FE25 /* Main.storyboard */; };
 		A8C24EA826A61244005D64C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C24EA726A61244005D64C9 /* AppDelegate.swift */; };
 		A8C24EAA26A61244005D64C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C24EA926A61244005D64C9 /* SceneDelegate.swift */; };
 		A8C24EAC26A61244005D64C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C24EAB26A61244005D64C9 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		A871290B26A7BC090063FE25 /* NoScrollExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoScrollExploreViewController.swift; sourceTree = "<group>"; };
 		A871290D26A7BD860063FE25 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		A871290F26A7BDBF0063FE25 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		A871291126A7CD040063FE25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		A8C24EA426A61244005D64C9 /* COMM Mobile Dev Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMM Mobile Dev Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C24EA726A61244005D64C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8C24EA926A61244005D64C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		A8C24E9B26A61244005D64C9 = {
 			isa = PBXGroup;
 			children = (
+				A871291126A7CD040063FE25 /* Main.storyboard */,
 				A8C24EA626A61244005D64C9 /* COMM Mobile Dev Final Project */,
 				A8C24EC026A61245005D64C9 /* COMM Mobile Dev Final ProjectTests */,
 				A8C24ECB26A61245005D64C9 /* COMM Mobile Dev Final ProjectUITests */,
@@ -246,6 +249,7 @@
 				A8C24EB726A61245005D64C9 /* LaunchScreen.storyboard in Resources */,
 				A8C24EB426A61245005D64C9 /* Assets.xcassets in Resources */,
 				A8C24EAF26A61244005D64C9 /* Main.storyboard in Resources */,
+				A871291226A7CD040063FE25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
