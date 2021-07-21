@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A871290C26A7BC090063FE25 /* NoScrollExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871290B26A7BC090063FE25 /* NoScrollExploreViewController.swift */; };
+		A871290E26A7BD860063FE25 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871290D26A7BD860063FE25 /* ConnectViewController.swift */; };
+		A871291026A7BDBF0063FE25 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871290F26A7BDBF0063FE25 /* ChatTableViewController.swift */; };
 		A8C24EA826A61244005D64C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C24EA726A61244005D64C9 /* AppDelegate.swift */; };
 		A8C24EAA26A61244005D64C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C24EA926A61244005D64C9 /* SceneDelegate.swift */; };
 		A8C24EAC26A61244005D64C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C24EAB26A61244005D64C9 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A871290B26A7BC090063FE25 /* NoScrollExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoScrollExploreViewController.swift; sourceTree = "<group>"; };
+		A871290D26A7BD860063FE25 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		A871290F26A7BDBF0063FE25 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
 		A8C24EA426A61244005D64C9 /* COMM Mobile Dev Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COMM Mobile Dev Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C24EA726A61244005D64C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8C24EA926A61244005D64C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +110,9 @@
 				A8C24EA726A61244005D64C9 /* AppDelegate.swift */,
 				A8C24EA926A61244005D64C9 /* SceneDelegate.swift */,
 				A8C24EAB26A61244005D64C9 /* ViewController.swift */,
+				A871290B26A7BC090063FE25 /* NoScrollExploreViewController.swift */,
+				A871290D26A7BD860063FE25 /* ConnectViewController.swift */,
+				A871290F26A7BDBF0063FE25 /* ChatTableViewController.swift */,
 				A8C24EAD26A61244005D64C9 /* Main.storyboard */,
 				A8C24EB326A61245005D64C9 /* Assets.xcassets */,
 				A8C24EB526A61245005D64C9 /* LaunchScreen.storyboard */,
@@ -263,8 +272,11 @@
 			files = (
 				A8C24EAC26A61244005D64C9 /* ViewController.swift in Sources */,
 				A8C24EA826A61244005D64C9 /* AppDelegate.swift in Sources */,
+				A871290C26A7BC090063FE25 /* NoScrollExploreViewController.swift in Sources */,
+				A871290E26A7BD860063FE25 /* ConnectViewController.swift in Sources */,
 				A8C24EB226A61244005D64C9 /* COMM_Mobile_Dev_Final_Project.xcdatamodeld in Sources */,
 				A8C24EAA26A61244005D64C9 /* SceneDelegate.swift in Sources */,
+				A871291026A7BDBF0063FE25 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
