@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="COMM_Mobile_Dev_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="COMMMobileDevFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,12 +85,12 @@
         <!--No Scroll Explore View Controller-->
         <scene sceneID="yQb-jR-VSi">
             <objects>
-                <viewController id="ooT-q2-Cx0" customClass="NoScrollExploreViewController" customModule="COMM_Mobile_Dev_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ooT-q2-Cx0" customClass="NoScrollExploreViewController" customModule="COMMMobileDevFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fqg-Yo-hRz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="COMM Logo 2" translatesAutoresizingMaskIntoConstraints="NO" id="hiM-Vh-qE3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="COMM Purple Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hiM-Vh-qE3">
                                 <rect key="frame" x="167" y="57" width="80" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -277,26 +277,44 @@
         <!--Connect View Controller-->
         <scene sceneID="92p-dh-gcV">
             <objects>
-                <viewController id="P3J-NZ-H27" customClass="ConnectViewController" customModule="COMM_Mobile_Dev_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="P3J-NZ-H27" customClass="ConnectViewController" customModule="COMMMobileDevFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FG0-WR-TTf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="COMM Green Logo" translatesAutoresizingMaskIntoConstraints="NO" id="oXy-Um-c0A">
+                                <rect key="frame" x="167" y="57" width="80" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="OoK-Fl-s2h"/>
+                                    <constraint firstAttribute="width" constant="80" id="WYz-0a-fWD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3Oh-iy-oSI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oXy-Um-c0A" firstAttribute="leading" secondItem="3Oh-iy-oSI" secondAttribute="leading" constant="167" id="JYq-u4-4aP"/>
+                            <constraint firstItem="3Oh-iy-oSI" firstAttribute="trailing" secondItem="oXy-Um-c0A" secondAttribute="trailing" constant="167" id="KkO-EC-vWy"/>
+                            <constraint firstItem="oXy-Um-c0A" firstAttribute="top" secondItem="3Oh-iy-oSI" secondAttribute="top" constant="13" id="pEo-T3-K3t"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qe4-4D-O0f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377" y="71"/>
+            <point key="canvasLocation" x="1376.8115942028987" y="70.982142857142847"/>
         </scene>
         <!--Chat Table View Controller-->
         <scene sceneID="F4y-zn-o7c">
             <objects>
-                <tableViewController id="F8F-VS-nZq" customClass="ChatTableViewController" customModule="COMM_Mobile_Dev_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="F8F-VS-nZq" customClass="ChatTableViewController" customModule="COMMMobileDevFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OxQ-mf-Na0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <imageView key="tableFooterView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ybq-Yr-ZEN">
+                            <rect key="frame" x="0.0" y="92.500000346790671" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="psz-yG-dEd">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
@@ -312,6 +330,9 @@
                             <outlet property="delegate" destination="F8F-VS-nZq" id="Wro-7l-gDC"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="commLogo" destination="ybq-Yr-ZEN" id="Lzb-rH-wo4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FID-LT-08b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -319,8 +340,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="COMM Green Logo" width="1280" height="1280"/>
         <image name="COMM Logo" width="1280" height="1280"/>
-        <image name="COMM Logo 2" width="1280" height="1280"/>
+        <image name="COMM Purple Logo" width="1280" height="1280"/>
         <image name="john-cameron--_5IRj1F2rY-unsplash" width="4032" height="3024"/>
         <image name="li-an-lim-ycW4YxhrWHM-unsplash-1" width="6000" height="4000"/>
         <image name="manny-becerra-cZtTvhpb2IU-unsplash" width="6240" height="4160"/>
