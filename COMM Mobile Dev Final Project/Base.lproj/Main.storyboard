@@ -285,10 +285,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvv-D5-KSi">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvv-D5-KSi">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ecE-JA-P7g" userLabel="Content View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecE-JA-P7g" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="COMM Purple Logo" translatesAutoresizingMaskIntoConstraints="NO" id="pbF-7b-2yr">
@@ -534,6 +534,7 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="ecE-JA-P7g" firstAttribute="centerX" secondItem="gvv-D5-KSi" secondAttribute="centerX" id="CM6-wq-2Wf"/>
                                     <constraint firstItem="ecE-JA-P7g" firstAttribute="leading" secondItem="077-fg-MaC" secondAttribute="leading" id="JlD-z6-Xvg"/>
                                     <constraint firstItem="ecE-JA-P7g" firstAttribute="top" secondItem="077-fg-MaC" secondAttribute="top" id="No7-zk-RMc"/>
                                     <constraint firstItem="ecE-JA-P7g" firstAttribute="trailing" secondItem="077-fg-MaC" secondAttribute="trailing" id="gro-63-9he"/>
@@ -552,10 +553,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7O6-8E-f6A"/>
                     </view>
+                    <connections>
+                        <outlet property="blogLink" destination="ZNO-pC-1tr" id="cRU-I7-qaH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJI-rq-t3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="71"/>
+            <point key="canvasLocation" x="1063.768115942029" y="70.982142857142847"/>
         </scene>
         <!--Recommended View Controller-->
         <scene sceneID="fgF-Q1-EnF">
@@ -849,10 +853,8 @@
         <image name="tim-mossholder-epBIrtdg2Hk-unsplash" width="9000" height="6000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lCh-hS-mM2"/>
-        <segue reference="vh8-nr-r50"/>
         <segue reference="3LI-Eo-Oot"/>
         <segue reference="yOh-5n-kIh"/>
-        <segue reference="eKD-LN-AkF"/>
+        <segue reference="AYn-vJ-pP2"/>
     </inferredMetricsTieBreakers>
 </document>
