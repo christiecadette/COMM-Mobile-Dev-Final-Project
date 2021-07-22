@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "https___cdn.cnn_.com_cnnnext_dam_assets_200326094654-01-cuba-doctors-coronavirus-321.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
