@@ -16,17 +16,20 @@ class ScrollViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let attributedString = NSMutableAttributedString (string: "Want to learn iOS? You should visit the best source of free iOS tutorials!")
-        attributedString.addAttribute(.link, value: "https://www.opendemocracy.net/en/can-europe-make-it/why-mutual-aid-social-solidarity-not-charity/", range: NSRange(location: 19, length: 55))
+     
+        //let attributedString = NSMutableAttributedString (string: "Want to learn iOS? You should visit the best source of free iOS tutorials!")
+        //attributedString.addAttribute(.link, value: "https://www.opendemocracy.net/en/can-europe-make-it/why-mutual-aid-social-solidarity-not-charity/", range: NSRange(location: 19, length: 55))
 
-        blogLink.attributedText = attributedString
+        // blogLink.attributedText = attributedString
+
+        
         // Do any additional setup after loading the view.
     }
     
-    func blogLink(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
-        UIApplication.shared.open(URL)
-        return false
-    }
+//    func blogLink(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
+//        UIApplication.shared.open(URL)
+//        return false
+//    }
     
     
     
