@@ -528,6 +528,14 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Womenism or Feminism?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y7Y-TR-Uss">
+                                                <rect key="frame" x="37" y="353" width="181" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -557,6 +565,8 @@
                     </view>
                     <connections>
                         <outlet property="blogLink" destination="cia-0F-JPO" id="qSn-RI-dp5"/>
+                        <outlet property="hyperlink1" destination="Y7Y-TR-Uss" id="DMe-Ra-5KT"/>
+                        <outlet property="womenismOrFeminism" destination="Y7Y-TR-Uss" id="mXe-c6-2G7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJI-rq-t3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -839,10 +849,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vh8-nr-r50"/>
-        <segue reference="lCh-hS-mM2"/>
-        <segue reference="3LI-Eo-Oot"/>
-        <segue reference="yOh-5n-kIh"/>
+        <segue reference="cYW-Vu-1WQ"/>
+        <segue reference="0HH-Mi-fYp"/>
         <segue reference="AYn-vJ-pP2"/>
     </inferredMetricsTieBreakers>
     <resources>

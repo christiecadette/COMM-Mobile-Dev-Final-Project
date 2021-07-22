@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233F147E26A9C0F000C31410 /* Hyperlinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F147D26A9C0F000C31410 /* Hyperlinks.swift */; };
 		8F9FFC0A26A8BF5A0070EA8D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFC0926A8BF5A0070EA8D /* ScrollViewController.swift */; };
 		8F9FFC0C26A8C8AC0070EA8D /* RecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFC0B26A8C8AC0070EA8D /* RecommendedViewController.swift */; };
 		8F9FFC0E26A8C9610070EA8D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFC0D26A8C9610070EA8D /* FavoritesViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233F147D26A9C0F000C31410 /* Hyperlinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyperlinks.swift; sourceTree = "<group>"; };
 		8F9FFC0926A8BF5A0070EA8D /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		8F9FFC0B26A8C8AC0070EA8D /* RecommendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewController.swift; sourceTree = "<group>"; };
 		8F9FFC0D26A8C9610070EA8D /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				A8C24EB026A61244005D64C9 /* COMM_Mobile_Dev_Final_Project.xcdatamodeld */,
 				8F9FFC0B26A8C8AC0070EA8D /* RecommendedViewController.swift */,
 				8F9FFC0D26A8C9610070EA8D /* FavoritesViewController.swift */,
+				233F147D26A9C0F000C31410 /* Hyperlinks.swift */,
 			);
 			path = "COMM Mobile Dev Final Project";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A871290E26A7BD860063FE25 /* ConnectViewController.swift in Sources */,
 				A8C24EB226A61244005D64C9 /* COMM_Mobile_Dev_Final_Project.xcdatamodeld in Sources */,
 				A8C24EAA26A61244005D64C9 /* SceneDelegate.swift in Sources */,
+				233F147E26A9C0F000C31410 /* Hyperlinks.swift in Sources */,
 				8F9FFC0C26A8C8AC0070EA8D /* RecommendedViewController.swift in Sources */,
 				8F9FFC0E26A8C9610070EA8D /* FavoritesViewController.swift in Sources */,
 				A871291026A7BDBF0063FE25 /* ChatTableViewController.swift in Sources */,

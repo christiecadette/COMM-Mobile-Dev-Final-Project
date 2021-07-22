@@ -22,12 +22,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
-}
+    
+    
 
 // -------NOTES-------
 // Colorful Overlay Image - Lorena
 // Logo (except on Welcome Page) color? Black or Colorful? Yellow or Purple?
 // Border around screen (Welcome page)?
 
+}
