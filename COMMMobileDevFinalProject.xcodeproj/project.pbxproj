@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		233F147E26A9C0F000C31410 /* Hyperlinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F147D26A9C0F000C31410 /* Hyperlinks.swift */; };
+		2358FC4726AA36AB006EA0DE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2358FC4626AA36AB006EA0DE /* Background.swift */; };
 		8F9FFC0A26A8BF5A0070EA8D /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFC0926A8BF5A0070EA8D /* ScrollViewController.swift */; };
 		8F9FFC0C26A8C8AC0070EA8D /* RecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFC0B26A8C8AC0070EA8D /* RecommendedViewController.swift */; };
 		8F9FFC0E26A8C9610070EA8D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFC0D26A8C9610070EA8D /* FavoritesViewController.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		233F147D26A9C0F000C31410 /* Hyperlinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyperlinks.swift; sourceTree = "<group>"; };
+		2358FC4626AA36AB006EA0DE /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		8F9FFC0926A8BF5A0070EA8D /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		8F9FFC0B26A8C8AC0070EA8D /* RecommendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewController.swift; sourceTree = "<group>"; };
 		8F9FFC0D26A8C9610070EA8D /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				8F9FFC0D26A8C9610070EA8D /* FavoritesViewController.swift */,
 				233F147D26A9C0F000C31410 /* Hyperlinks.swift */,
 				8FC017D526A9F48800D8B7BC /* ChatViewController.swift */,
+				2358FC4626AA36AB006EA0DE /* Background.swift */,
 			);
 			path = "COMM Mobile Dev Final Project";
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				233F147E26A9C0F000C31410 /* Hyperlinks.swift in Sources */,
 				8F9FFC0C26A8C8AC0070EA8D /* RecommendedViewController.swift in Sources */,
 				8F9FFC0E26A8C9610070EA8D /* FavoritesViewController.swift in Sources */,
+				2358FC4726AA36AB006EA0DE /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
