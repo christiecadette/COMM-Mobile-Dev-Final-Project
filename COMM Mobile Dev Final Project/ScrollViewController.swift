@@ -88,29 +88,29 @@ class ScrollViewController: UIViewController {
     
     
 
-    //    func repeatAnimateImagesChanges(images:NSArray, imageView:UIImageView) {
-//
-//        if(images.count == 3) {
-//            return
-//        }
-//
-//        var newImage = images.firstObject as! UIImage
-//
-//        if(imageView.image != nil) {
-//            for i in 0..<images.count {
-//                newImage = images.object(at: i) as! UIImage
-//                if(imageView.image?.isEqual(newImage))! {
-//                    newImage = i == images.count - 1 ? images.firstObject as! UIImage : images.object(at: i + 1) as! UIImage
-//                }
-//            }
-//        }
+        func repeatAnimateImagesChanges(images:NSArray, imageView:UIImageView) {
 
-//        imageView.imageWithFade = newImage
-//
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-//            self.repeatAnimateImagesChanges(images: images, imageView: imageView)
-//        }
-//    }
+        if(images.count == 3) {
+            return
+        }
+
+        var newImage = images.firstObject as! UIImage
+
+        if(imageView.image != nil) {
+            for i in 0..<images.count {
+                newImage = images.object(at: i) as! UIImage
+                if(imageView.image?.isEqual(newImage))! {
+                    newImage = i == images.count - 1 ? images.firstObject as! UIImage : images.object(at: i + 1) as! UIImage
+                }
+            }
+        }
+
+        imageView.imageWithFade = newImage
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            self.repeatAnimateImagesChanges(images: images, imageView: imageView)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
@@ -138,13 +138,13 @@ class ScrollViewController: UIViewController {
         
         hyperlink8.font = UIFont(name: "Hiragino Sans W7", size: 13)
         
-//        let firstImage: UIImage? = UIImage(named: "activism1");
-//        let secondImage: UIImage? = UIImage(named: "activism2");
-//        let thirdImage: UIImage? = UIImage(named: "activism3");
-//
-//        imgView.imageWithFade = secondImage
-//
-//        repeatAnimateImagesChanges(images: <#T##NSArray#>, imageView: <#T##UIImageView#>)
+        let firstImage: UIImage? = UIImage(named: "activism1");
+        let secondImage: UIImage? = UIImage(named: "activism2");
+        let thirdImage: UIImage? = UIImage(named: "activism3");
+
+        imgView.imageWithFade = secondImage
+
+        repeatAnimateImagesChanges(images: <#T##NSArray#>, imageView: <#T##UIImageView#>)
         }
         
     }
